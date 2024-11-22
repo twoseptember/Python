@@ -1,0 +1,11 @@
+6b to apend file and display the text
+
+
+F = open ("abc.txt","r")
+F.write("\n python is easy to learn \n")
+F.write("\n python is simple \n")
+F = open("abc.txt","r")
+t=f read()
+print(t)
+f.close()
+

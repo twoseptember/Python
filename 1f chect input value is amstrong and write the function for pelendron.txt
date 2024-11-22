@@ -1,0 +1,27 @@
+1f chect input value is amstrong and write the function for pelendron
+
+def armnum(num):
+    sum=0
+    temp=num
+    while temp>0
+        digit = temp%10
+        sum + digit**3
+        temp//=10
+if num ==sum:
+     print (num,"is a Armstrong Number")
+else:
+     print (num,"is not a Armstrong Number")
+def palnum(num):
+    sum=0
+    temp=num
+    while num!=0
+          rem=num%10
+          sum=rem+sum*10
+          num=num//10
+    if temp==sum:
+          print(temp,"is a pelindrome Number")
+    else:
+          print(temp,"is not a pelindrome Number")
+num=int(input("Enter any Number"))
+arnum(num)
+palnum(num)

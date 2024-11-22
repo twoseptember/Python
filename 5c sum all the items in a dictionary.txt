@@ -1,0 +1,5 @@
+5c sum all the items in a dictionary
+
+dict={'data1':140,'data2':-54,'data3':315}
+print(sum(dict.values()))
+

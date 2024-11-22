@@ -1,0 +1,6 @@
+4b print a specific list after removing zero'th , second, forth and fifth element
+
+list=[10,15,20,25,30,35,40,45]
+print("Element after removing oth,2nd,4th and 5thelement from list:")
+list[x for(i,x)in enumerate(list)if i not in (0,2,4,5)]
+print(list)

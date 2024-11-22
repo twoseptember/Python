@@ -1,0 +1,56 @@
+8a a new file in IDLE ("new window" in the "file" menu)and save as geometry.pyin the directory........
+now write a function pointyshapevolume (x,y,square base) that calculates the volume of a square pyramid if .......
+
+code
+---------------------------------------------------------------------------------
+#geometry.py
+
+import math
+
+
+def sphere_area(r):
+    return 4 * math.pi * r**2
+
+
+def sphere_volume(r):
+    return (4 * math.pi * r**3) / 3
+
+
+def sphere_metrics(r):
+    return sphere_area(r), sphere_volume(r)
+
+
+def circle_area(r):
+    return math.pi * r**2
+
+
+def square(x):
+    return x**2
+
+
+Note:- save the above code as named geometry.py
+------------------------------------------------------------------------------
+
+import geometry
+import math
+
+def point_shape_volume(x, h, square):
+    if square:
+        base = geometry.square_area(x)  
+    else:
+        base = geometry.circle_area(x)  
+    
+    return base * h / 3.0
+
+
+print(dir(geometry))
+
+
+print(point_shape_volume(4, 2.6, True))  
+print(point_shape_volume(4, 2.6, False))  
+
+
+
+
+Note:- save above code as name prac8a.py
+---------------------------------------------------------------------------

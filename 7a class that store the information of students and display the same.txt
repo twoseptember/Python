@@ -1,0 +1,10 @@
+7a class that store the information of students and display the same
+
+class students:
+      def info (self,studname,studaddress,studclass):
+          print("Name:",studname)
+          print("Address:",studaddress) 
+          print("Class:",studclass)
+
+obj = student()
+obj.info('Veda','Ajroli','SYIT')

@@ -1,0 +1,6 @@
+3b take a list for a=.....and print out all element that are less then 5
+
+a=[1,1,2,3,5,8,13,21,34,55,89]
+  for i in a :
+       if i < 5:
+         print (i)

@@ -1,0 +1,8 @@
+2c Histogram that takes a list of integers and print a histogram (****)
+
+def histogram(input list):
+          for i in range(len(input list)):
+          print(input list [i]*'*')
+list=[4,9,7]
+histogram(list)
+

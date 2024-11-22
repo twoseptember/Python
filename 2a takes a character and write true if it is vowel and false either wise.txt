@@ -1,0 +1,10 @@
+2a takes a character and write true if it is vowel and false either wise
+
+def vchk(ch):
+  if (ch=='a'orch=='A'or ch=='e'or ch=='e' or ch=='i'or ch=='I'ch=='o'or ch=='O'ch=='u'or ch=='U'):
+  
+  print (ch,"is vowel")
+else:
+  print (ch,"is not vowel")
+ch=input("Enter any character (a-z(A-Z)):")
+vchk(ch)

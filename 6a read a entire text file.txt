@@ -1,0 +1,19 @@
+6a read a entire text file
+
+--Instructions----------------------------|
+create a text file name as "abc.txt"      |
+with content                              |
+                                          |
+Good Morning !                            |
+Have a nice day                           |
+welcome to python world!                  |
+python is easy to learn                   |
+                                          |
+------------------------------------------|
+
+code
+
+F = open("abc.txt","r")
+t = f.read()
+print(t)
+f.close()

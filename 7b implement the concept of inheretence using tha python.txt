@@ -1,0 +1,11 @@
+7b implement the concept of inheretence using tha python
+
+class st:
+      def s1(self):
+          print("Base class")
+class st1(st):
+      def s2(self):
+          print("Derived class")
+t=st1()
+t.s1()
+t.s2()

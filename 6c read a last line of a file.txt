@@ -1,0 +1,6 @@
+6c read a last line of a file 
+
+F = open("abc.txt","r")
+t = f.read lines()
+print (t[-1])
+f.close()
