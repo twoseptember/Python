@@ -1,9 +1,9 @@
 3a sentence that contains all the letters atleast once (the quick brown for...)
 
-import string,sys
-def isprogram(str2, alphabet=string.ascii_lowercase)
+import string
 
-   alphaset = set(alphabet)
-   return alphaset <= set(str1,lower())
+def is_program(str1, alphabet=string.ascii_lowercase):
+    alphaset = set(alphabet)  
+    return alphaset <= set(str1.lower())  
 
-print(isprogram("the quick brown fox jumps over the lazy dog"))
+print(is_program("the quick brown fox jumps over the lazy dog"))
