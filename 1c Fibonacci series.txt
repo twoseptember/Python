@@ -1,9 +1,12 @@
 1c fibonacci series
 
-def fibo(h):
-   a,b=0,1
-     while a<n:
-        print(a,end='')
-        a,b=b,a+b
-        print()
-fibo(y)
+def fibo(n):  
+    a, b = 0, 1 
+    while a < n: 
+        print(a, end=' ')  
+        a, b = b, a + b  
+    print()  
+
+
+y = int(input("Enter the limit for Fibonacci sequence: "))  
+fibo(y)  
