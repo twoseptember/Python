@@ -1,11 +1,13 @@
 1d reverse the user define value
 
-def remnum(n):
-    sum=0
-    while n!=0
-    rem =n%10
-    sum=rem+sum*10
-    n=n//10
-  print("Reverse Number:",sum)
- num=int(input("Enter any Number"))
-revnum(num)
+def revnum(n):  
+    reverse = 0  
+    while n != 0:  
+        rem = n % 10  
+        reverse = rem + reverse * 10  
+        n = n // 10  
+    print("Reverse Number:", reverse)  
+
+
+num = int(input("Enter any Number: "))  
+revnum(num)  
